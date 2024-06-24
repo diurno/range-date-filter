@@ -1,0 +1,36 @@
+/*----------------- 
+Backend related CSS
+-----------------*/
+
+
+.rangedatef-wrapper-form .row {
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+.rangedatef-wrapper-form .row .cgpt-checkbox-label {
+    text-transform: capitalize;
+}
+
+.rangedatef-wrapper-form .msg {
+    padding: 10px;
+    margin-top: 1.5em;
+    margin-left: 0;
+    width: fit-content;
+    visibility: visible;
+    opacity: 1;
+    transition: all .3s linear;
+}
+
+.rangedatef-wrapper-form .msg.hide {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.rangedatef-wrapper-form .msg.success {
+    border: 2px solid green;
+}
+.rangedatef-wrapper-form .msg.error {
+    border: 2px solid red;
+}
+
